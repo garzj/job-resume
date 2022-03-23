@@ -1,0 +1,30 @@
+:root {
+  --bg-color: #333333;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header,
+footer {
+  background: var(--bg-color);
+  color: white;
+  min-height: 1rem;
+}
+header {
+  min-height: 2rem;
+}
+
+main {
+  flex: 1 0 0;
+}
