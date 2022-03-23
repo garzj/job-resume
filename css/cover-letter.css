@@ -1,0 +1,31 @@
+main {
+  padding: 5rem 6rem;
+}
+
+.to-from {
+  display: flex;
+  justify-content: space-between;
+}
+
+.to-from > div > *:nth-child(1) {
+  color: var(--ambient-color);
+  font-weight: bold;
+}
+
+.to-from > div:last-of-type {
+  text-align: right;
+}
+
+.resume-title {
+  text-align: center;
+  color: black;
+  margin: 5rem 0 5rem 0;
+  text-decoration: underline;
+  text-underline-position: under;
+  text-underline-offset: 0.2em;
+}
+.resume-title-inner {
+  text-decoration: underline;
+  text-underline-position: under;
+  text-underline-offset: 0.5em;
+}
