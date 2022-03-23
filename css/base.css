@@ -4,6 +4,7 @@
 
 :root {
   --bg-color: #333333;
+  --ambient-color: #2e74b5;
 }
 
 html,
@@ -31,4 +32,16 @@ header {
 
 main {
   flex: 1 0 0;
+}
+
+h3,
+h4 {
+  color: var(--ambient-color);
+}
+h3:not(:nth-of-type(1)) {
+  margin-top: 2rem;
+}
+
+ul {
+  line-height: 1.7em;
 }
